@@ -18,12 +18,12 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <Wallet />
-
+        
       </main>
 
       <footer className={styles.footer}>
-        <a href="https://rainbow.me" rel="noopener noreferrer" target="_blank">
-          Made with ❤️ by your frens at 🌈
+        <a href="https://opensea.io/collection/voodoo-labs-polygon" rel="noopener noreferrer" target="_blank">
+          See Details On OpenSea
         </a>
       </footer>
     </div>
