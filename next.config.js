@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    // Required:
+    appDir: true,
+  },
   exportTrailingSlash: true,
   output: 'standalone',
   reactStrictMode: true,
