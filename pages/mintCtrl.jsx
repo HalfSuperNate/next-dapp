@@ -31,6 +31,9 @@ function MintComponent() {
 
     const handleMintClick = () => {
         // Perform minting logic here
+        if (!address) {
+            return;
+        }
         if (walletAddress.length !== 42) {
             alert("The input value must be 42 characters long, inserting connected wallet by default");
             setWalletAddress(address);
@@ -76,7 +79,7 @@ function MintComponent() {
             {mounted && _bCost ? (
                 <p>Total: {((parseInt(_bCost) * quantity) / 10**18)} Matic</p>
             ) : null}
-            <button onClick={handleMintClick}>Mint</button>
+            <button className={styles.mintBtn} onClick={handleMintClick}>Mint</button>
         </div>
     );
 }

@@ -1,4 +1,4 @@
-import { useAccount, useContractRead } from 'wagmi'; 
+import { useContractRead } from 'wagmi'; 
 import { _abi } from './abiGet'; 
 
 export function BatchSupply(batch) {

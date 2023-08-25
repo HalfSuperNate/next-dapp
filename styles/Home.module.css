@@ -27,9 +27,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 8px;
+  margin: 8px 0px;
   font-size: 1em;
   word-break: break-all;
+}
+
+.detailsContainer p {
+  font-size: 0.6rem;
 }
 
 .mintContainer {
@@ -38,15 +42,35 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2px 8px;
   font-size: 1em;
   word-break: break-all;
+}
+
+.mintContainer h2 {
+  margin-bottom: 4px;
 }
 
 .mintContainer p {
   text-align: center;
 }
 
+.mintContainer div {
+  margin: 4px 2px;
+}
+
 .mintImage {
   max-height: 100vw;
+}
+
+.mintImage img {
+  width: 100%;
+}
+
+.mintBtn {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: ghostwhite;
+  background-color: rgb(131, 26, 163);
+  margin: 10px 2px;
+  width: 60px;
+  border-radius: 10px;
 }
