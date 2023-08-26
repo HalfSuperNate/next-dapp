@@ -27,3 +27,6 @@ You can check out [the RainbowKit GitHub repository](https://github.com/rainbow-
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+Here is an example of the mint/swapper site as of 8/25/23:
+<img width="389" alt="Screenshot 2023-08-25 at 11 27 57 PM" src="https://github.com/HalfSuperNate/next-dapp/assets/96854633/11dc2d50-2010-4881-88ea-22446df66227">
