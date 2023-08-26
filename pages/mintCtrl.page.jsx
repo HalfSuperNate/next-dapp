@@ -76,7 +76,7 @@ function MintComponent() {
                     <img src='/success.png' alt="Mint Success" /> // Show success image
                 ) : null}
             </div>
-            {mounted && _bCost ? (
+            {mounted && _bCost >= 0 ? (
                 <p>Total: {((parseInt(_bCost) * quantity) / 10**18)} Matic</p>
             ) : null}
             <button className={styles.mintBtn} onClick={handleMintClick}>Mint</button>

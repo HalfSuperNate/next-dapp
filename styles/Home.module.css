@@ -10,9 +10,15 @@
   min-height: 100vh;
 }
 
-.main p {
+.main p, .main a {
   margin: 0.5em 2rem;
   width: 100vw;
+}
+
+.main a {
+  cursor: pointer;
+  color: rgb(127, 210, 210);
+  font-size: 0.6rem;
 }
 
 .rainbowContainer {
@@ -36,7 +42,7 @@
   font-size: 0.6rem;
 }
 
-.mintContainer {
+.mintContainer, .swapContainer{
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -46,31 +52,54 @@
   word-break: break-all;
 }
 
-.mintContainer h2 {
+.mintContainer h2, .swapContainer h2{
   margin-bottom: 4px;
+  text-decoration: underline;
 }
 
-.mintContainer p {
+.mintContainer p, .swapContainer p{
   text-align: center;
 }
 
-.mintContainer div {
+.mintContainer div, .swapContainer div{
   margin: 4px 2px;
 }
 
-.mintImage {
+.swapContainer div{
+  margin: 4px 20px;
+}
+
+.mintImage{
   max-height: 100vw;
 }
 
-.mintImage img {
+.mintImage img{
   width: 100%;
 }
 
-.mintBtn {
+.swapImage {
+  display: flex;
+  align-items: center; /* Align items vertically within the container */
+  gap: 20px; /* Add some spacing between the images */
+}
+
+.imageContainer {
+  flex: 1; /* Distribute available space evenly among the images */
+}
+
+.imageContainer img {
+  border-radius: 10px;
+  max-width: 100%;
+  box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.3);
+}
+
+.mintBtn, .swapBtn{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: ghostwhite;
   background-color: rgb(131, 26, 163);
   margin: 10px 2px;
   width: 60px;
   border-radius: 10px;
+  box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }

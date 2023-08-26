@@ -19,8 +19,8 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <a href="https://opensea.io/collection/voodoo-labs-polygon" rel="noopener noreferrer" target="_blank">
-          See Details On OpenSea
+        <a href="https://www.vacnft.xyz/" rel="noopener noreferrer" target="_blank">
+          Voodoo Labs Website
         </a>
       </footer>
     </div>
