@@ -28,7 +28,7 @@ function SwapComponent() {
         functionName: 'rollSet',
         args: [tokenID, rollNext, 0],
         account: address,
-        value: (parseInt(_bSwapCost) * tokenID).toString(),
+        value: (parseInt(_bSwapCost) * 1).toString(),
     });
 
     useEffect(() => {
